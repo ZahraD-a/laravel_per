@@ -14,7 +14,10 @@
     @csrf
      <tr ><td></td><td> </td></tr>
     <tr><td></td><td><strong >Nom: </strong></td></tr>
-   <tr><td></td><td><input type="text" name="nom" size="25"  ></td></tr>
+   <tr><td></td><td>
+       <div class="wrap-input100 validate-input" data-validate = "Valid email is required: ex@abc.xyz">
+           <input type="text" name="nom" size="25"  >
+    </div></td></tr>
    <tr><td></td><td><strong>Prenom  :</strong></td></tr>
    <tr><td></td><td><input type="text" name="prenom" class="champ" size="25"></td></tr>
    <tr><td></td><td><strong>email :</strong></td></tr>
